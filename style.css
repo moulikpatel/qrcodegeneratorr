@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    box-shadow: 2px 3px 4px;
+    background-color: white;
+    border-radius: 10px;
+    height:400px;
+    width: 650px;
+    text-align: center;
+}
+.box h1{
+    font-size: 40px;
+}
+.form input{
+    width: 80%;
+    margin: 20px;
+    height: 40px;
+}
+#btn{
+    width: 80%;
+    margin: 20px;
+    height: 40px;
+    background-color: rgb(32, 180, 32);
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
